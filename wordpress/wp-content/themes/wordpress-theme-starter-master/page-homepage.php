@@ -8,6 +8,10 @@ get_header(); ?>
 	<main role="main">
 		<!-- section -->
 		<section>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <h1>This is the navbar</h1>
+
+        </nav>
 
 			<h1><?php the_title(); ?></h1>
 			<img src="<?php echo get_template_directory_uri();?>/img/hashtag-hero-mobile.jpg" class="img-fluid" alt="Responsive image">
