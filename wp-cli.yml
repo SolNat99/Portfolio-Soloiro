@@ -1,0 +1,4 @@
+require:
+  - wp-cli/browse-command.php
+@portfolio.solorio:
+  ssh: vagrant:portfolio.solorio:/var/www/html
