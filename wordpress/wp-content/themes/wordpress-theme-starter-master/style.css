@@ -55,6 +55,10 @@
   left: 7%;
 }
 
+.bg-custom-blue {
+  background-color: #477890;
+}
+
 /**
  * partials/footer
  * ---
@@ -116,10 +120,6 @@
 
 h1 {
   color: mediumaquamarine;
-}
-
-.bg-custom-blue {
-  background-color: #477890;
 }
 
 /*# sourceMappingURL=style.css.map */

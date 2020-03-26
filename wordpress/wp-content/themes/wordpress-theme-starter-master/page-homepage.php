@@ -8,11 +8,6 @@ get_header(); ?>
 	<main role="main">
 		<!-- section -->
 		<section>
-        <nav class="navbar navbar-expand-lg navbar-light bg-custom-blue py-4">
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-        </nav>
 
 			<h1><?php the_title(); ?></h1>
 			<img src="<?php echo get_template_directory_uri();?>/img/hashtag-hero-mobile.jpg" class="img-fluid" alt="Responsive image">
