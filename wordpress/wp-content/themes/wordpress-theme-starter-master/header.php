@@ -27,6 +27,11 @@
 
 		<!-- wrapper -->
 		<div class="wrapper">
+		<nav class="navbar navbar-expand-lg navbar-light bg-custom-blue py-4">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+        </nav>
 
 			<!-- header -->
 			<header class="header clear" role="banner">
@@ -35,10 +40,11 @@
 				<div class="logo">
 					<a href="<?php echo home_url(); ?>">
 						<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-						<img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
+						<!-- <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img"> -->
 					</a>
 				</div>
 				<!-- /logo -->
 
+		
 			</header>
 			<!-- /header -->
