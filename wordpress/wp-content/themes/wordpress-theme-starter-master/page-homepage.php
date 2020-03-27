@@ -8,33 +8,50 @@ get_header(); ?>
 	<main role="main">
 		<!-- section -->
 		<section>
+			<div class="container">
+				
+				<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
-			<h1><?php the_title(); ?></h1>
-			<img src="<?php echo get_template_directory_uri();?>/img/hashtag-hero-mobile.jpg" class="img-fluid" alt="Responsive image">
-		<?php if (have_posts()): while (have_posts()) : the_post(); ?>
+				<div class="row">
+					<div class="col-6 col-sm-4">
+					<img src="<?php echo get_template_directory_uri();?>/img/hashtag-hero-mobile.jpg" class="img-fluid" alt="Responsive image">
+					</div>
 
-			<!-- article -->
-			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+					<div class="col">
+						<h1>About Me</h1>
+					</div>
 
-				<?php the_content(); ?>
+					<div class="col">
+						<h1>Interests</h1>
+					</div>
 
-			</article>
-			<!-- /article -->
+				</div>		
 
-		<?php endwhile; ?>
+			
 
-		<?php else: ?>
+				<!-- article -->
+				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-			<!-- article -->
-			<article>
+					<?php the_content(); ?>
 
-				<h2><?php _e( 'Sorry, nothing to display.', 'html5blank' ); ?></h2>
+				</article>
+				<!-- /article -->
 
-			</article>
-			<!-- /article -->
+			<?php endwhile; ?>
 
-		<?php endif; ?>
+			<?php else: ?>
 
+				<!-- article -->
+				<article>
+
+					<h2><?php _e( 'Sorry, nothing to display.', 'html5blank' ); ?></h2>
+
+				</article>
+				<!-- /article -->
+
+			<?php endif; ?>
+
+		</div> 
 		</section>
 		<!-- /section -->
 	</main>
