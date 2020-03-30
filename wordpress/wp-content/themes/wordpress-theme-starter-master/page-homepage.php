@@ -13,16 +13,18 @@ get_header(); ?>
 				<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
 				<div class="row">
-					<div class="col-6 col-sm-4">
-					<img src="<?php echo get_template_directory_uri();?>/img/hashtag-hero-mobile.jpg" class="img-fluid" alt="Responsive image">
+					<div class="col-12 col-sm-6">
+					<img src="<?php echo get_template_directory_uri();?>/img/hashtag-hero-mobile.jpg" class="img-fluid round-border" alt="Responsive image">
 					</div>
 
-					<div class="col">
+					<div class="col-12 col-sm-6">
 						<h1>About Me</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus viverra nulla a sodales. Cras mollis ex et malesuada ultricies. Ut vestibulum, est eu commodo rutrum, augue nibh vulputate quam, id pretium lorem velit vel elit. Donec sodales pellentesque tellus, fringilla sollicitudin enim. Curabitur sed eleifend odio. In volutpat ultricies ante. Fusce mauris lectus, lobortis ac mauris eget, dapibus scelerisque massa. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id pretium nulla, et ultrices libero.</p>
 					</div>
 
-					<div class="col">
+					<div class="col-12 col-sm-6">
 						<h1>Interests</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus viverra nulla a sodales. Cras mollis ex et malesuada ultricies. Ut vestibulum, est eu commodo rutrum, augue nibh vulputate quam, id pretium lorem velit vel elit. Donec sodales pellentesque tellus, fringilla sollicitudin enim. Curabitur sed eleifend odio. In volutpat ultricies ante. Fusce mauris lectus, lobortis ac mauris eget, dapibus scelerisque massa. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id pretium nulla, et ultrices libero.</p>
 					</div>
 
 				</div>		
