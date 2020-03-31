@@ -1,3 +1,10 @@
-.round-border {
-    border-radius: 50%;
+/**
+ * partials/page-homepage.scss
+ * ---
+ */
+
+.rotate {
+    transform: rotate(90deg);
+    height: 22vh;
+    width: 22vh;
 }

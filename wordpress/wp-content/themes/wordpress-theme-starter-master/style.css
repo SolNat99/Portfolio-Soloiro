@@ -122,4 +122,14 @@ h1 {
   color: mediumaquamarine;
 }
 
+/**
+ * partials/page-homepage.scss
+ * ---
+ */
+.rotate {
+  transform: rotate(90deg);
+  height: 22vh;
+  width: 22vh;
+}
+
 /*# sourceMappingURL=style.css.map */

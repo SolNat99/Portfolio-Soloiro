@@ -14,7 +14,7 @@ get_header(); ?>
 
 				<div class="row">
 					<div class="col-12 col-sm-6">
-					<img src="<?php echo get_template_directory_uri();?>/img/hashtag-hero-mobile.jpg" class="img-fluid round-border" alt="Responsive image">
+					<img src="<?php echo get_template_directory_uri();?>/img/portfolio-pic.jpg" class="img-fluid rounded-circle rotate my-3" alt="Responsive image">
 					</div>
 
 					<div class="col-12 col-sm-6">
