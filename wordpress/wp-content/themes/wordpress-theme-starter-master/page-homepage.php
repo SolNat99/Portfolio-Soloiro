@@ -12,8 +12,11 @@ get_header(); ?>
 				
 				<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
+
+
 				<div class="row">
-					<div class="col-12 col-sm-6">
+					
+				<div class="col-12">
 					<img src="<?php echo get_template_directory_uri();?>/img/portfolio-pic.jpg" class="img-fluid rounded-circle rotate my-3" alt="Responsive image">
 					</div>
 
