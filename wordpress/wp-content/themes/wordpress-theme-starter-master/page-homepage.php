@@ -17,7 +17,7 @@ get_header(); ?>
 				<div class="row">
 					
 				<div class="col-sm-2">
-					<img src="<?php echo get_template_directory_uri();?>/img/portfolio-pic.jpg" class="img-fluid rounded-circle rotate my-3" alt="Responsive image">
+					<img src="http://portfolio.solorio/wp-content/uploads/2020/06/Natalie.png" class="profile-image rounded-circle my-3">
 					</div>
 
 					<div class="col-sm-5">

@@ -126,10 +126,8 @@ h1 {
  * partials/page-homepage.scss
  * ---
  */
-.rotate {
-  transform: rotate(90deg);
-  height: 22vh;
-  width: 22vh;
+.profile-image {
+  max-width: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */
