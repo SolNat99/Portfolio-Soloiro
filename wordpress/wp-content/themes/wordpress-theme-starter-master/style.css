@@ -59,6 +59,16 @@
   background-color: #477890;
 }
 
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.no-gutters > .col,
+.no-gutters > [class*=col-] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 /**
  * partials/footer
  * ---
@@ -128,6 +138,25 @@ h1 {
  */
 .profile-image {
   max-width: 200px;
+}
+
+.jumbotron {
+  border-radius: 0;
+}
+
+.jumbobox {
+  padding: 4rem 1rem;
+  background-color: #8E3B46;
+}
+
+.text-box {
+  background-color: rgba(71, 120, 144, 0.6);
+  padding: 2rem;
+  opacity: 0.6;
+}
+
+.text-color {
+  color: #DEFFFC;
 }
 
 /*# sourceMappingURL=style.css.map */

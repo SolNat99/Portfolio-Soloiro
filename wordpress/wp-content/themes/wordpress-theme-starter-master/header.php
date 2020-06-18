@@ -35,7 +35,8 @@
 
 			<!-- header -->
 			<header class="header clear" role="banner">
-			
+				
+
 				<!-- logo -->
 				<div class="logo">
 					<a href="<?php echo home_url(); ?>">
